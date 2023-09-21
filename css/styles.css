@@ -1,0 +1,85 @@
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #349b34;
+    color: black;
+}
+
+header {
+    background-color: #ececec;
+    color: #000000;
+    text-align: center;
+}
+
+nav {
+    background-color: #040404;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ececec;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container_curso{
+    width: 20wv;
+    height: 20hv;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+} 
+
+#ifms_logo {
+    width: 40%;
+    max-width: 400px;
+}
+
+.botao_enviar{
+    margin-top: 10px;
+}
